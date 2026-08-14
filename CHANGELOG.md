@@ -6,6 +6,12 @@ This project uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+### Added
+- **Optional domain seats** — a seat class outside the canonical 18. Optional seats are never convened by `--full`, by a profile, or by auto-triad selection; they join only via explicit `--members` or a triad that names them, so the default panel stays at 18. Declared in frontmatter with `optional_seat: true`.
+- **`council-hahnemann` — first optional domain seat** (Samuel Hahnemann, homeopathic case analysis & health). Reasons inside the homeopathic tradition: case-taking as an unprejudiced observer, totality of symptoms (mentals → generals → particulars), the striking/singular/uncommon/peculiar over the pathognomonic, repertorization confirmed against the materia medica, single remedy and minimum dose, Hering's direction of cure, and obstacles to cure. Grounding protocol caps the differential at 3 remedies, forbids invented rubrics and unsourced indications (unsourced claims must be labeled `clinical impression`), and makes red flags a hard stop that routes to emergency or physician care before case-taking continues.
+- `health` triad (Hahnemann + Meadows + Aurelius), `Hahnemann vs Feynman` / `Hahnemann vs Kahneman` polarity pairs, and a `health, symptom, remedy, healing, chronic, patient` duo route. Mirrored in `SKILL.codex.md`, `SKILL.gemini.md`, and `SKILL.opencode.md`.
+- Demo M in `demos/session-pack.md` — health triad, standalone case-analysis, and the Hahnemann vs Feynman polarity check.
+
 ## [1.2.0] - 2026-07-04
 
 ### Added

@@ -220,6 +220,40 @@ What good output looks like:
 - Watts questions whether the framing ("simplify vs add guidance") is a false dichotomy
 - Concrete recommendation with user evidence
 
+## Demo M — Health triad (Hahnemann + Meadows + Aurelius)
+
+Goal: exercise the optional `hahnemann` domain seat and confirm optional seats are only convened when named.
+
+Prompt:
+
+```bash
+/council --triad health Recurring migraines for two years, worse before a storm and better lying in a dark room. Every scan is clean and the daily preventive has stopped working.
+```
+
+What good output looks like:
+- Hahnemann takes the case as a totality — mentals, generals, then the headache last — and separates the striking/peculiar modalities (worse before storm, better in dark, better lying) from the pathognomonic ones (head pain in a headache case)
+- Hahnemann names a differential of at most 3 remedies, each traced to a repertory rubric or materia medica entry, and labels anything unsourced as `clinical impression`
+- Meadows maps the reinforcing loop — the preventive, the sleep debt, the stress, and the rebound that keeps regenerating the symptom
+- Aurelius draws the control boundary: what the patient governs vs what they are enduring
+- Red flags are raised **before** deliberation continues, or explicitly stated as none identified
+- Verdict does not collapse the tension between "treat this individual's totality" and "redesign the loop producing it"
+
+Standalone (single-agent) variant:
+
+```bash
+Use council-hahnemann: chronic eczema in the elbow creases, worse in winter and after washing, better at the seaside, sleep poor since a bereavement last year.
+```
+
+Expected: Red Flags → The Case as Received → Totality → Characteristic Symptoms → Repertorization → Differential (≤3 remedies) → Prescription (single remedy, potency, repetition) → Expected Course & Follow-Up → Obstacles to Cure → Confidence → Where I May Be Wrong.
+
+Polarity check:
+
+```bash
+/council --duo --members hahnemann,feynman Is a constitutional remedy the right way to approach a chronic complaint?
+```
+
+Expected: the Core Tension is symptom-totality-as-whole-signal vs give-me-a-derivable-mechanism, presented without forcing consensus.
+
 ## Fast scoring rubric (0-2 each, 10 max)
 
 1. Perspective spread: distinct viewpoints, not paraphrases

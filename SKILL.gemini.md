@@ -35,6 +35,8 @@ If no panel flag is present, auto-select the best triad from problem context.
 
 `aristotle, socrates, sun-tzu, ada, aurelius, machiavelli, lao-tzu, feynman, torvalds, musashi, watts, karpathy, sutskever, kahneman, meadows, munger, taleb, rams`
 
+**Optional domain seats** (outside the canonical 18 — never convened by `--full`, `--profile`, or auto-triad; only by explicit `--members` or a triad that names them): `hahnemann` (Samuel Hahnemann — homeopathic case analysis & health).
+
 ## Triads
 
 | Domain | Members |
@@ -59,6 +61,7 @@ If no panel flag is present, auto-select the best triad from problem context.
 | `design` | rams, torvalds, watts |
 | `economics` | munger, machiavelli, sun-tzu |
 | `bias` | kahneman, socrates, watts |
+| `health` | hahnemann, meadows, aurelius |
 
 ## Profiles
 

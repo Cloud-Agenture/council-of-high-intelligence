@@ -92,6 +92,14 @@ Every later reference to a `~/.claude/...` council path means "the resolved asse
 | `council-taleb` | Nassim Taleb | Antifragility & tail risk | opus | Design for the tail, not the average |
 | `council-rams` | Dieter Rams | User-centered design | sonnet | Less, but better — the user decides |
 
+## Optional Domain Seats
+
+Seats that exist outside the canonical 18. They are **not** convened by `--full`, by `--profile`, or by auto-triad selection — bring them in explicitly with `--members`, or through a triad that names them.
+
+| Agent | Figure | Domain | Model | Polarity |
+|-------|--------|--------|-------|----------|
+| `council-hahnemann` | Samuel Hahnemann | Homeopathic case analysis & health | opus | Treats the patient, never the diagnosis |
+
 ## Polarity Pairs
 
 - **Socrates vs Feynman** — Destroys top-down vs rebuilds bottom-up
@@ -107,6 +115,8 @@ Every later reference to a `~/.claude/...` council path means "the resolved asse
 - **Munger vs Aristotle** — Multi-model lattice vs single taxonomic system
 - **Taleb vs Karpathy** — Hidden catastrophic tails vs smooth empirical scaling curves
 - **Rams vs Ada** — What the user needs vs what computation can do
+- **Hahnemann vs Feynman** — The symptom totality is the whole signal vs give me a mechanism I can derive
+- **Hahnemann vs Kahneman** — The peculiar symptom decides the case vs the observer who picked it was already pattern-matching
 
 ## Pre-defined Triads
 
@@ -132,6 +142,7 @@ Every later reference to a `~/.claude/...` council path means "the resolved asse
 | `design` | Rams + Torvalds + Watts | User clarity + maintainability + reframing |
 | `economics` | Munger + Machiavelli + Sun Tzu | Models + incentives + competition |
 | `bias` | Kahneman + Socrates + Watts | Cognitive bias + assumption destruction + frame audit |
+| `health` | Hahnemann + Meadows + Aurelius | Individual symptom totality + feedback loops in the body and life + what is in the patient's control |
 
 ## Duo Polarity Pairs (for `--duo` mode)
 
@@ -150,6 +161,7 @@ Every later reference to a `~/.claude/...` council path means "the resolved asse
 | economics, investment, models, moat | Munger vs Aristotle | Multi-model lattice vs single taxonomy |
 | risk, uncertainty, fragility, tail | Taleb vs Karpathy | Hidden tails vs smooth empirical curves |
 | design, user, usability, ux | Rams vs Ada | What the user needs vs what computation can do |
+| health, symptom, remedy, healing, chronic, patient | Hahnemann vs Feynman | Symptom totality as the whole signal vs a mechanism you can derive |
 | default (no keyword match) | Socrates vs Feynman | Top-down questioning vs bottom-up rebuilding |
 
 ## Council Profiles

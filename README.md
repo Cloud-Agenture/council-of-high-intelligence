@@ -162,6 +162,22 @@ The repository stores each member contract under [`agents/`](agents/). Custom pa
 use `--members`, named triads, or the `classic`, `exploration-orthogonal`, and
 `execution-lean` profiles documented in [`SKILL.md`](SKILL.md).
 
+### Optional domain seats
+
+Beyond the 18 there are optional seats for narrow domains. They never join `--full`, a
+profile, or an auto-selected triad — they are convened only by explicit `--members` or by a
+triad that names them, so the default panel stays at 18.
+
+| Seat | Primary lens | Useful counterweight |
+|---|---|---|
+| Samuel Hahnemann (`hahnemann`) | Homeopathic case analysis: symptom totality, modalities, remedy differentiation | Feynman on a derivable mechanism; Kahneman on the observer who selected the "peculiar" symptom |
+
+The `hahnemann` seat reasons inside the homeopathic tradition — provings, repertory,
+materia medica, minimum dose, direction of cure. Its grounding protocol forbids invented
+rubrics and unsourced indications, caps a differential at three remedies, and treats red
+flags as a hard stop that routes to emergency or physician care before any case-taking
+continues. It is an analytical lens, not a licensed prescriber.
+
 ## Multi-provider routing
 
 The detection script checks which supported providers are available, then the coordinator
@@ -227,7 +243,7 @@ SKILL.md                    canonical coordinator protocol
 SKILL.codex.md              Codex host mirror
 SKILL.gemini.md             Gemini CLI host mirror
 SKILL.opencode.md           OpenCode host mirror
-agents/                     18 grounded persona contracts
+agents/                     18 grounded persona contracts + optional domain seats
 configs/                    provider and model-routing examples
 demos/                      sample sessions and verdict template
 scripts/                    detection, conversion, and validation tools
