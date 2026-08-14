@@ -11,6 +11,7 @@ This project uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - **`council-hahnemann` — first optional domain seat** (Samuel Hahnemann, homeopathic case analysis & health). Reasons inside the homeopathic tradition: case-taking as an unprejudiced observer, totality of symptoms (mentals → generals → particulars), the striking/singular/uncommon/peculiar over the pathognomonic, repertorization confirmed against the materia medica, single remedy and minimum dose, Hering's direction of cure, and obstacles to cure. Grounding protocol caps the differential at 3 remedies, forbids invented rubrics and unsourced indications (unsourced claims must be labeled `clinical impression`), and makes red flags a hard stop that routes to emergency or physician care before case-taking continues.
 - `health` triad (Hahnemann + Meadows + Aurelius), `Hahnemann vs Feynman` / `Hahnemann vs Kahneman` polarity pairs, and a `health, symptom, remedy, healing, chronic, patient` duo route. Mirrored in `SKILL.codex.md`, `SKILL.gemini.md`, and `SKILL.opencode.md`.
 - Demo M in `demos/session-pack.md` — health triad, standalone case-analysis, and the Hahnemann vs Feynman polarity check.
+- `demos/homeopathy-agent-prompt.md` — the Hahnemann seat as a portable, self-contained system prompt (English canonical + Ukrainian version), with placement instructions per host, sample queries, and a six-point answer-quality check. Depends on nothing in the repo, so it can be handed to any LLM surface.
 
 ## [1.2.0] - 2026-07-04
 
